@@ -1,0 +1,122 @@
+/* DEVELOPER: Jeremy Tolentino, IS117-002, Spring 2021 */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+
+body{
+    background-color: ghostwhite;
+    align-content: center;
+}
+
+img{
+    float: left;
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+
+#lazylist{
+    list-style-type: none;
+}
+
+.jumbotron {
+    background-size: cover;
+}
+
+.section{
+    float: right;
+}
+
+.aside{
+    float: right;
+}
+
+/* phone portrait */
+@media only screen and (max-width: 740px){
+    .card-title{
+        font-size: small;
+    }
+    .card-text{
+        font-size: smaller;
+    }
+    .btn .btn-primary {
+        font-size: small;
+    }
+
+    #profile{
+        height:45%;
+        width:45%;
+    }
+
+    .container h2{
+        font-size: 48px;
+    }
+    .container h3{
+        font-size: 36px;
+    }
+    .container p{
+        font-size: 32px;
+    }
+    .container li{
+        font-size: 24px;
+    }
+
+}
+
+/* phone landscape */
+@media only screen and (max-width: 815px){
+    .card-title{
+        font-size: medium;
+    }
+    .card-text{
+        font-size: small;
+    }
+    .btn .btn-primary{
+        font-size: medium;
+    }
+
+    #profile{
+        height:369px;
+        width:369px;
+    }
+
+    .container h2{
+        font-size: 32px;
+    }
+    .container h3{
+        font-size: 24px;
+    }
+    .container p{
+        font-size: 22px;
+    }
+    .container li{
+        font-size: 18px;
+    }
+
+    .jumbotron h1{
+        font-size: 32px;
+    }
+    .jumbotron p{
+        font-size: 24px;
+    }
+
+    .card-title{
+        font-size: 16pt;
+    }
+    .card-text{
+        font-size: 12pt;
+    }
+
+}
